@@ -1,0 +1,34 @@
+body {
+    /*Aplica para todos las páginas asociadas*/
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#ele1 {
+    background-color: green;
+    height: 60px;
+    width: 200px;
+    text-align: center;
+}
+
+#colores, #keys {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+#key, #key2 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid black;
+}
+.back-button {
+    background-color: coral;
+    font-weight: bold;
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+}
